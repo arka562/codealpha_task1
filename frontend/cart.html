@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Shop</a></li>
+            <li><a href="category.html">Categories</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="productView.html">Product View</a></li>
+        </ul>
+    </nav>
+
+    <!-- Cart Page -->
+    <section class="cart-page">
+        <h2>Your Cart</h2>
+        <table class="car">
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img 1.jpg" alt="Product 1">
+                     Casual Shirt 
+                </td>
+                <td>1</td>
+                <td>$49.99</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img 3.jpeg" alt="Product 2">
+                     Full Body Clothes
+                </td>
+                <td>2</td>
+                <td>$59.99</td>
+            </tr>
+        </table>
+        <h3>Total: $111.98</h3>
+        <button onclick="window.location.href='checkout.html'">Proceed to Checkout</button>
+    </section>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
